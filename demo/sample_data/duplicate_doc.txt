@@ -1,0 +1,3 @@
+Retrieval-Augmented Generation (RAG) is a technique that enhances large language models (LLMs) by integrating external knowledge sources. This approach addresses the limitations of LLMs, such as hallucinations and outdated information, by providing them with access to up-to-date and domain-specific data.
+
+The RAG process typically involves two main steps: retrieval and generation. In the retrieval phase, the system searches a vector database for documents or chunks of text that are relevant to the user's query. These databases store document embeddings, which are numerical representations of the text's semantic meaning.

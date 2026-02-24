@@ -1,0 +1,14 @@
+<div>
+<h1>Artificial Intelligence</h1>
+<p>
+AI is like totally cool. It can do lots of things nowadays. 
+Machine learning is a part of it and it learns from stuff you give it. 
+http://example.com has more info maybe?
+</p>
+<script>alert("hello")</script>
+<p>
+    Anyway, neural networks are also a thing they use. I'm not really sure how they work but they are complicated. 
+    People say AI will change the world. 
+    It's important to know about.
+</p>
+</div>

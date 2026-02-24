@@ -1,0 +1,22 @@
+[
+  {
+    "doc_id": "demo-good_doc",
+    "source": "good_doc.txt",
+    "reason": "AI Evaluation score too low (0.00 < 0.40)"
+  },
+  {
+    "doc_id": "demo-noisy_doc",
+    "source": "noisy_doc.txt",
+    "reason": "AI Evaluation score too low (0.00 < 0.40)"
+  },
+  {
+    "doc_id": "demo-duplicate_doc",
+    "source": "duplicate_doc.txt",
+    "reason": "AI Evaluation score too low (0.00 < 0.40)"
+  },
+  {
+    "doc_id": "demo-noisy_doc",
+    "source": "noisy_doc.txt",
+    "reason": "AI Evaluation score too low (0.38 < 0.40)"
+  }
+]

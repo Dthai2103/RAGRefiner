@@ -1,0 +1,92 @@
+[
+  {
+    "doc_id": "demo-good_doc",
+    "source": "good_doc.txt",
+    "status": "REJECT",
+    "final_score": 0.0,
+    "scores": {
+      "coherence": 0.0,
+      "completeness": 0.0,
+      "factual_clarity": 0.0,
+      "rag_suitability": 0.0,
+      "language_quality": 0.0
+    },
+    "reasoning": "",
+    "improve_attempts": 0
+  },
+  {
+    "doc_id": "demo-noisy_doc",
+    "source": "noisy_doc.txt",
+    "status": "REJECT",
+    "final_score": 0.0,
+    "scores": {
+      "coherence": 0.0,
+      "completeness": 0.0,
+      "factual_clarity": 0.0,
+      "rag_suitability": 0.0,
+      "language_quality": 0.0
+    },
+    "reasoning": "",
+    "improve_attempts": 0
+  },
+  {
+    "doc_id": "demo-duplicate_doc",
+    "source": "duplicate_doc.txt",
+    "status": "REJECT",
+    "final_score": 0.0,
+    "scores": {
+      "coherence": 0.0,
+      "completeness": 0.0,
+      "factual_clarity": 0.0,
+      "rag_suitability": 0.0,
+      "language_quality": 0.0
+    },
+    "reasoning": "",
+    "improve_attempts": 0
+  },
+  {
+    "doc_id": "demo-good_doc",
+    "source": "good_doc.txt",
+    "status": "PASS",
+    "final_score": 0.8800000000000002,
+    "scores": {
+      "coherence": 0.9,
+      "completeness": 0.9,
+      "factual_clarity": 0.8,
+      "rag_suitability": 0.9,
+      "language_quality": 0.9
+    },
+    "reasoning": "The text flows logically, with each sentence building upon the previous one to explain the RAG technique and its process. The transitions between ideas are smooth, making it easy to follow. | The text provides a clear overview of the RAG technique, its components, and its benefits. However, it could benefit from more specific examples or case studies to illustrate its applications and challenges. | The text provides a clear and concise overview of the Retrieval-Augmented Generation technique, its components, and optimization strategies. However, it could benefit from more specific examples or use cases to illustrate the effectiveness of RAG in real-world applications.",
+    "improve_attempts": 0
+  },
+  {
+    "doc_id": "demo-noisy_doc",
+    "source": "noisy_doc.txt",
+    "status": "REJECT",
+    "final_score": 0.38000000000000006,
+    "scores": {
+      "coherence": 0.4,
+      "completeness": 0.4,
+      "factual_clarity": 0.6,
+      "rag_suitability": 0.2,
+      "language_quality": 0.2
+    },
+    "reasoning": "The text lacks coherence due to abrupt changes in topic and lack of logical connections between sentences. The language quality is also poor, with grammatical errors, informal tone, and unnecessary HTML tags. | The text lacks complete thoughts and crucial context, particularly in the section discussing machine learning and neural networks. It abruptly cuts off without providing a clear explanation of how these concepts work or their significance. | The text is information-dense, but it lacks clarity and organization due to excessive formatting artifacts (e.g., HTML tags, inline links) and boilerplate content (e.g., the 'http://example.com' link). The text also contains unnecessary script tags that disrupt the flow of the content.",
+    "improve_attempts": 0
+  },
+  {
+    "doc_id": "demo-duplicate_doc",
+    "source": "duplicate_doc.txt",
+    "status": "PASS",
+    "final_score": 0.8700000000000002,
+    "scores": {
+      "coherence": 0.9,
+      "completeness": 0.9,
+      "factual_clarity": 0.8,
+      "rag_suitability": 0.9,
+      "language_quality": 0.8
+    },
+    "reasoning": "The text flows logically and presents a clear explanation of the RAG technique. However, the transition between sentences could be smoother. | The text provides a clear and concise overview of the Retrieval-Augmented Generation (RAG) technique, highlighting its benefits in addressing limitations of large language models. However, it would be beneficial to include more details about the retrieval phase, such as how the system selects relevant documents or chunks of text. | The text is well-structured and easy to follow, with a clear explanation of the RAG technique and its two main steps. However, it could benefit from more concise language and fewer sentences.",
+    "improve_attempts": 0
+  }
+]
